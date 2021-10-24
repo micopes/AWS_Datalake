@@ -1,4 +1,4 @@
-# Why Data Lakes
+# Introduction to Designing Data Lakes on AWS
 
 
 ## Data Lake
