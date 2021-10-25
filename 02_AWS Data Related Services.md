@@ -54,10 +54,12 @@
 - 데이터 실시간 수집/캡쳐 : `Kinesis Data Streams`
 - 데이터 실시간 처리/분석 툴로 로드 및 전송 : `Kinesis DAta Firehose
 
+> [참고] https://jellybean.tistory.com/1
+
 ## Amazon API Gateway
 - 대규모 보안 API를 쉽게 생성/게시/유지 관리 할 수 있는 완전 관리형 서비스
 - API Gateway는 트래픽 관리, COR 지원, 권한 부여 및 액세스 제어, 조절, 모니터링, API 버전 관리 등을 포함하여 최대 수십만 건의 동시 API 호출을 수락하고 처리 등 관련 작업 수행
 
 > API : backend service/application의 front door
 
-> [참고] https://jellybean.tistory.com/1
+
