@@ -10,7 +10,7 @@
 ### DB
 - 불가능(확장성 문제)
 
-## Amazon S3 
+## AWS S3 
 - `Storage Layer`
 - 형식에 구애받지 않는다.
 - 유형에 따라 별도로 저장되어서는 안된다. 모든 형식이 같은 공간에 존재해야 한다.(중앙 집중식)
@@ -35,3 +35,29 @@
 - Table 정의를 추가하면 ETL 작업에 쉽고 유용하게 사용 가능
 - `AWS Glue Data Catalog`가 기존 `Apache Hive Metastore`와 동일한 방식으로 메타데이터를 관리할 수 있다.
 
+## AWS Kinesis
+
+### 종류
+- `Amazon Kinesis Video Streams`
+- `Amazon Kinesis Data Streams`
+
+![image](https://user-images.githubusercontent.com/43158502/138684346-57d171d4-a032-40d6-8ef1-170e7503e819.png)
+
+- `Amazon Kinesis Data Firehose`
+
+![image](https://user-images.githubusercontent.com/43158502/138684377-92c52b2c-68a2-448d-b350-05d182331c86.png)
+
+## 특징
+
+![image](https://user-images.githubusercontent.com/43158502/138684319-b9b54f35-b03d-43a4-a8ad-4f3cf8782c9f.png)
+
+- 데이터 실시간 수집/캡쳐 : `Kinesis Data Streams`
+- 데이터 실시간 처리/분석 툴로 로드 및 전송 : `Kinesis DAta Firehose
+
+## Amazon API Gateway
+- 대규모 보안 API를 쉽게 생성/게시/유지 관리 할 수 있는 완전 관리형 서비스
+- API Gateway는 트래픽 관리, COR 지원, 권한 부여 및 액세스 제어, 조절, 모니터링, API 버전 관리 등을 포함하여 최대 수십만 건의 동시 API 호출을 수락하고 처리 등 관련 작업 수행
+
+> API : backend service/application의 front door
+
+> [참고] https://jellybean.tistory.com/1
